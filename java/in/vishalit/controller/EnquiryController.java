@@ -64,7 +64,7 @@ public class EnquiryController {
 		Enquiry enquiry = new Enquiry();
 		model.addAttribute("enquiry", enquiry);
 		return "enquiryForm";
-	}
+	} 
 	
 	@GetMapping("/editEnq")
 	public String editEnquiry(@RequestParam("enqId") Integer enqId,Model model) {
